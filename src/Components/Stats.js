@@ -1,4 +1,5 @@
 export function Stats({ items }) {
+  // show the stats
   if (!items.length)
     return (
       <p className="stats">
