@@ -24,6 +24,7 @@ export function PackagingList({
       .slice()
       .sort((a, b) => Number(a.packed) - Number(b.packed));
 
+  // displaying the filtered objects
   return (
     <div className="list">
       <ul>
