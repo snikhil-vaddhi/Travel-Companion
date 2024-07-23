@@ -10,6 +10,7 @@ export function PackagingList({
   // filter option
   const [sortBy, setSortBy] = useState("input");
 
+  // sorting options
   let sortedItems;
   if (sortBy === "input") sortedItems = items;
 
