@@ -7,6 +7,7 @@ export function PackagingList({
   onToggleItems,
   onResetDefaults,
 }) {
+  // filter option
   const [sortBy, setSortBy] = useState("input");
 
   let sortedItems;
