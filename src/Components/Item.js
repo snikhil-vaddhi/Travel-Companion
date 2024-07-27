@@ -1,4 +1,5 @@
 export function Item({ item, onDeleteItem, onToggleItems }) {
+  //destructuring props
   return (
     <li>
       <input
