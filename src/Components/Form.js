@@ -7,7 +7,7 @@ export default function Form({ onHandleItems }) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if (!description) return;
+    if (!description) return; //if no description return
 
     const newItem = { description, select, packed: false, id: Date.now() };
     onHandleItems(newItem);
