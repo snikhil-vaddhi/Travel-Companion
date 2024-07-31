@@ -13,6 +13,7 @@ export default function App() {
   const [items, setItems] = useState([]);
 
   function handleItems(item) {
+    // destrcuturing
     setItems((items) => [...items, item]);
   }
   function handleDeleteItem(id) {
